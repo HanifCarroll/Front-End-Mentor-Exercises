@@ -584,6 +584,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(60 129 105 / var(--tw-bg-opacity));
 }
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -626,4 +630,22 @@ video {
 .active\:bg-green-900:active {
   --tw-bg-opacity: 1;
   background-color: rgb(20 83 45 / var(--tw-bg-opacity));
+}
+@media (min-width: 1024px) {
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:h-2\/3 {
+    height: 66.666667%;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
+  }
 }
